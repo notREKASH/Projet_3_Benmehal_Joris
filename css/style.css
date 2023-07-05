@@ -35,7 +35,7 @@ body {
 }
 
 .content-container {
-  padding: 0 50px;
+  padding: 0 30px;
 }
 
 .section-title {
@@ -192,7 +192,7 @@ header > nav > ul > li > a:hover {
 
 .filters ul li i {
   object-fit: contain;
-  margin: 0 1em;
+  margin: 0 1em 0 0.2em;
 }
 
 .filters ul li {
@@ -212,6 +212,7 @@ header > nav > ul > li > a:hover {
 
 .filters ul li h3 {
   text-align: center;
+  font-size: 16px;
 }
 
 /* Section Info Bar */
@@ -435,6 +436,10 @@ footer {
     padding: 0;
   }
 
+  .filters ul li {
+    padding: 0 0.23em;
+  }
+
   /* Section Populaire */
 
   .hebergements-and-populars {
@@ -480,8 +485,15 @@ footer {
   }
 }
 
+/* Medium devices (tablet, less than 1024px) */
+@media (min-width: 1024px) {
+  .filters ul li {
+    padding: 0 1em;
+  }
+}
+
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   /* General */
 
   .content-container {
@@ -569,6 +581,10 @@ footer {
 
   .filters ul li img {
     margin: 0 1em;
+  }
+
+  .filters ul li i {
+    margin: 0 1em 0 1em;
   }
 
   .filters ul li {
