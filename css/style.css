@@ -192,6 +192,8 @@ header > nav > ul > li > a:hover {
   flex-direction: row;
   justify-content: center;
   gap: 10px;
+  padding: 0;
+  margin: 0;
 }
 
 .filters ul li {
@@ -493,6 +495,14 @@ footer {
   }
 }
 
+@media (min-width: 1024px) {
+  .filters {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
   /* General */
@@ -598,6 +608,12 @@ footer {
 
   .filters ul li h3 {
     font-size: 16px;
+  }
+
+  /* InfoBar */
+
+  .info-bar {
+    margin: 2em 0 0 0;
   }
 
   /* Section hebergement & Populaires */
