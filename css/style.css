@@ -407,6 +407,7 @@ footer > div > div > ul > li > a:hover {
 footer > div {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  padding: 1em;
 }
 
 footer {
