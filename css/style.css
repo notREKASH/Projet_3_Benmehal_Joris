@@ -555,12 +555,28 @@ footer {
 
   /* Section Search bar */
 
+  .search-bar > div,
+  .search-bar > div > form {
+    width: 100%;
+  }
+
+  .search-bar > div > form > input {
+    width: 100%;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+  }
+
   #button-submit-text {
     display: none;
   }
 
   #button-submit-icon {
+    position: absolute;
+    right: 10px;
+    height: 48px;
     display: block;
+    border-radius: 1em;
+    box-shadow: 0px 4px 4px 0px #00000040;
   }
 
   /* Section Filtres */
