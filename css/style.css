@@ -22,6 +22,10 @@ h3 {
   --filter-bg-color: #deebff;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .fa-solid {
   color: var(--main-color);
 }
